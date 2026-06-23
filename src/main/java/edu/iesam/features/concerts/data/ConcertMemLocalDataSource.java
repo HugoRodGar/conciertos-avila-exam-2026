@@ -11,9 +11,9 @@ public class ConcertMemLocalDataSource {
     private ArrayList<Concert> storage = new ArrayList<>();
 
     public ConcertMemLocalDataSource() {
-        storage.add(new Concert("1","Pablo","Nº1","23/06/2026","1006","50"));
-        storage.add(new Concert("2","Javi","Nº2","23/06/2026","998","60"));
-        storage.add(new Concert("3","Robert","Nº3","23/06/2026","1060","70"));
+        storage.add(new Concert("EV-2026-0451","Pablo","Nº1","23/06/2026","1006","50"));
+        storage.add(new Concert("EV-2026-0452","Javi","Nº2","23/06/2026","998","60"));
+        storage.add(new Concert("EV-2026-0453","Robert","Nº3","23/06/2026","1060","70"));
     }
 
     public ArrayList<Concert> findAll() {

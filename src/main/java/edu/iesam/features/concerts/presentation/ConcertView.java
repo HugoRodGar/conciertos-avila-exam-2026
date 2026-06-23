@@ -30,7 +30,7 @@ public class ConcertView {
         System.out.println("List before");
         printConcerts();
 
-        Concert newConcert = new Concert("4","Gabriel","Nº4","23/06/2026","2000","206");
+        Concert newConcert = new Concert("EV-2026-0454","Gabriel","Nº4","23/06/2026","2000","206");
         System.out.println("Saving: " + newConcert);
         saveConcertUseCase.execute(newConcert);
 
